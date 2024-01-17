@@ -117,7 +117,7 @@ def trainModel(intelligence):
 
 def main():
     intelligence = Intelligence()
-    trainModel(intelligence)
+    print(trainModel(intelligence))
 
 
 main()
