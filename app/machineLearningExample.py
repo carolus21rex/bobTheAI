@@ -117,7 +117,8 @@ def trainModel(intelligence):
 
 def main():
     intelligence = Intelligence()
-    print(trainModel(intelligence))
+    intelligence = trainModel(intelligence)
+    print(f"\n\nFinal thresholds are:\n{intelligence}")
 
 
 main()
